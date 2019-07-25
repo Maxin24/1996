@@ -1,0 +1,36 @@
+.flr {
+  float: right;
+}
+h3 {
+  margin-top: 10px;
+  display: inline-block;
+}
+.item-list li {
+  width: 100%;
+}
+.item-list li > * {
+  display: inline-block;
+}
+.item-list li .cover {
+  margin: 0;
+  padding: 0;
+  width: 67px;
+  max-height: 100px;
+}
+.item-list li .detail {
+  width: calc(100% - 100px);
+}
+.item-list .input-group {
+  width: 120px;
+}
+/* 谷歌 */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+/* 火狐 */
+input {
+  -moz-appearance: textfield;
+}

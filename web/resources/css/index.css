@@ -1,0 +1,76 @@
+html,
+body {
+  background-color: #F6F6F1;
+  margin: 0;
+  padding: 0;
+}
+main .carousel {
+  width: 950px;
+  height: 270px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+main #mainCI {
+  font-size: 0;
+  width: 100%;
+  height: 60px;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+}
+main #mainCI li {
+  width: 190px;
+  height: 60px;
+  text-indent: 0;
+  border: none;
+  margin: 0;
+  position: relative;
+  bottom: -15px;
+  transition: 0.5s;
+}
+main #mainCI li.active {
+  bottom: 0px;
+}
+main .nav-list {
+  margin: 20px;
+}
+.book-list-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.book-list-container li {
+  display: inline-block;
+  width: 450px;
+  height: 305px;
+  margin: 25px;
+}
+.book-list-container .panel-detail {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 125px;
+}
+.book-list-container .panel-detail .bookface-img {
+  width: 106px;
+  height: 140px;
+  left: 25px;
+  bottom: 50px;
+  position: relative;
+}
+.book-list-container .panel-detail .bookface-img img {
+  width: 100%;
+  height: 100%;
+}
+.book-list-container .panel-detail .book-brief {
+  position: relative;
+  left: 35px;
+  width: 300px;
+}
+.book-list-container .panel-detail .book-brief h3 {
+  color: #555;
+}
+.book-list-container .panel-detail .book-brief p {
+  color: #777;
+}
+.book-list-container .panel-detail > div {
+  display: inline-block;
+}

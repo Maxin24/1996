@@ -1,0 +1,19 @@
+.panel tr:hover input {
+  background: #f5f5f5;
+}
+.panel tr button {
+  display: none;
+}
+.panel tr td:hover button {
+  display: inline-block;
+}
+.panel tr input {
+  margin: -2px 0;
+  border: 1px solid;
+  width: calc(100% - 45px);
+}
+.panel tr span {
+  display: inline-block;
+  width: calc(100% - 45px);
+  margin-inline-end: 5px;
+}

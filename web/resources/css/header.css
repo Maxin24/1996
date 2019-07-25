@@ -1,0 +1,31 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+}
+header > div {
+  display: inline-block;
+}
+header .logo {
+  margin-inline-start: 20px;
+  font-size: 30px;
+}
+header .searchBar {
+  width: 300px;
+  margin-inline-start: 60px;
+}
+header .items {
+  margin-inline-start: auto;
+  margin-inline-end: 20px;
+}
+header .items li {
+  display: inline-block;
+}

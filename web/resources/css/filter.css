@@ -1,0 +1,30 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+main.container {
+  min-width: 900px;
+}
+main.container .tagList {
+}
+.book-list li {
+  margin: 0 10px;
+}
+.book-item {
+  display: flex;
+}
+.book-item .cover {
+  width: 67px;
+  max-height: 100px;
+}
+.book-item .detail {
+  margin-inline-start: 10px;
+}
+.book-item .detail .title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+

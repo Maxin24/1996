@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+}
+
+.app {
+    width: 300px;
+    height: 280px;
+    margin: 200 auto;
+    border: solid 1px #CCCCCC;
+    border-radius: 20px;
+    box-shadow: #777777 0px 3px 3px;
+}
+
+form {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    margin: 20px 0px;
+}
+
+.loginOption {
+    text-align: left;
+}
